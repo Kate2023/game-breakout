@@ -11,7 +11,7 @@ public class Brick extends Sprite {
 		this.y = y;
 		// TODO: Set the width and height of the brick using Settings.BRICK_WIDTH/HEIGHT
 		this.width = Settings.BRICK_WIDTH;
-		this.height = Settings.BALL_HEIGHT;
+		this.height = Settings.BRICK_HEIGHT;
 	}
 
 	public boolean isBroken() {
@@ -19,7 +19,7 @@ public class Brick extends Sprite {
 	}
 	public void setBroken(boolean b) {
 		// TODO: Set the broken variable using the parameter given
-		this.broken = broken;
+		this.broken = b;
 	}
 	
 	public void paint(Graphics g) {
